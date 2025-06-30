@@ -7,12 +7,10 @@
         <link rel="icon" href="./img/favicon.png">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <style>
             .a_tbdr{
-                border: 1px dashed black;
+                border: 0.5px solid black;
             }
             body{
                 background-color: #E8E8E8;
@@ -21,35 +19,52 @@
                 font-style: normal;
             }
             header{
-                height: 80px;
+               min-height: 80px;
             }
             main{
                 min-height: 2500px;
             }
+            .a_m1{
+                height: 119px;
+            }
+            .a_m2{
+                height: 283px;
+            }
+            .a_m3{
+                height: 322px;
+            }
+            .a_m4{
+                height: 500px;
+            }
             footer{
                 height: 537px;
+               margin-top: 10px;
             }
-            .a_dropdown{
-                margin-top: 10px;
-            }
-            .a_bell{
-                margin-bottom: 0px;
-            }
+           body{
+            background-color: #f5f5f5;
+           }
+           .category-section {
+                background: white;
+                border-radius: 12px;
+                padding: 20px;
+                margin-bottom: 30px;
+           }
         </style>
 
     </head>
     <body>
         <div class="container-fluid a_tbdr p-4 pt-0 pb-0">
-            <header class="a_tbdr">
+            <header class="a_tbdr ">
                  <div class="row m-0 h-100">
-                    <div class="col-3 p-0 a_tbdr">
-                         <img src="./img/download.jpeg" alt="Website Banner" />
+                    <div class="col-2 p-0  ">
+                         <img src="./img/caf6d980-5e8b-4104-984a-88028577edb2.png" alt="Website Banner" />
                     </div>
-                    <div class="col-2 p-0 a_tbdr"></div>
-                    <div class="col-7 p-0 a_tbdr d-flex align-items-center">
+                    <div class="col-2 p-0 "></div>
+                    <div class="col-8 p-0  d-flex align-items-center">
                         <ul class="nav">
-                            <li class="nav-item ">
-                                <div class="dropdown a_dropdown">
+                            <li class=" p-4 ">
+                        </ul>
+                                <div class="dropdown ">
                                     <button class="btn dropdown-toggle text-primary " type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <i class="fa-solid fa-language text-primary"></i> En
                                     </button>
@@ -57,30 +72,170 @@
                                         <li><a class="dropdown-item" href="#">English-EN</a></li>
                                         <li><a class="dropdown-item" href="#">हिंदी - HI</a></li>
                                     </ul>
-                                </div>
+                    </div>
+                    <div>
+                         <ul class="nav">
+                            <li class="nav-item">
+                            <button type="button" class="btn">Investor Relations</button>
+                            <a class="nav-link text-black text-dark" href="#"></a>
                             </li>
                             <li class="nav-item">
-                                <button type="button" class="btn"><a class="nav-link text-black" href="#">Investor Relations</a></button>
+                            <button type="button" class="btn">Leads</button>
+                            <a class="nav-link text-black text-dark" href="#"></a>
                             </li>
                             <li class="nav-item">
-                                <button type="button" class="btn"><a class="nav-link text-black" href="#">Free Listing</a></button>
+                            <button type="button" class="btn">Investor Relations</button>
+                            <a class="nav-link text-black text-dark" href="#"></a>
+                            </li>
+                            <li class="nav-item">
+                            <button type="button" class="btn">Free Listing</a></button>
+                            <a class="nav-link text-black text-dark" href="#"></a>
                             </li>
                             <li class="nav-item a_bell">
-                                <button type="button" class="btn btn-lg"><a class="nav-link text-black" href="#">
-                                    <i class="fa-regular fa-bell"></i>
-                                </a></button>
+                            <button type="button" class="btn btn-lg"><a class="nav-link text-black" href="#">
+                            <i class="fa-regular fa-bell"></i>
+                            </a></button>
                             </li>
                             <li class="nav-item a_dropdown">
-                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Log-In / Sign-Up
-                                    <i class="fa-regular fa-circle-user"></i>
-                                </button>
-                                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                            </li>
-                        </ul>
+                            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Log-In / Sign-Up
+                                            
+                            </button>
+                                            
+                           </li>
+                         </ul>
                     </div>
-                </div>
+                 </div>
             </header>
-            <main class="a_tbdr"></main>
+            <main class="a_tbdr">
+                <section class="a_m1 a_tbdr">
+                      <h2>
+                    Search across <span class="fw-bold">'5.9 Crore+'</span> <span class="highlight-blue text-primary">Products &amp; Services</span>
+                    </h2>
+                     <div class="dropdown n_dropdown2">
+                        <!-- Input outside the dropdown toggle -->
+                        <button class="btn btn-drop dropdown-toggle w-20 n_dropdown2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-location-dot n_dropdown2"> </i>
+                        <input type="textarea" placeholder="Select Location">
+                        </button>
+                        <!-- Dropdown menu -->
+                        <ul class="dropdown-menu a_dropdown2" id="locationDropdown">
+                            <li><a class="dropdown-item" href="#">Mira Road East,Thane</a></li>
+                            <li><a class="dropdown-item" href="#">Kandivali,Mumbai</a></li>
+                            <li><a class="dropdown-item" href="#">Malad West,Mumbai</a></li>
+                            <li><a class="dropdown-item" href="#">Kandivali West,Mumbai</a></li>
+                            <li><a class="dropdown-item" href="#">Thane West,Thane</a></li>
+                            <li><a class="dropdown-item" href="#">Nalasopara East,Palghar</a></li>
+                            <li><a class="dropdown-item" href="#">Mumbai Central,Mumbai</a></li>
+                        </ul>
+                        <button class="btn n_dropdown2" type="button"  aria-expanded="false">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="textarea" placeholder="Search in Mumbai">
+                            <i class="fa-solid fa-microphone"></i>
+                        </button>
+                    </div>
+
+                </section>
+                <section class="a_m2 a_tbdr">
+                    <div class="row m-0 h-100">
+                        <div class="col-6 p-0 h-100 a_tbdr overflow-hidden">
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/banner_packersmovers_2024.webp" class="d-block w-100 img-fluid" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/banner_cctv_2024.webp" class="d-block w-100 img-fluid" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/banner_hotels_2024.webp" class="d-block w-100 img-fluid" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/banner_interiordesigners_2024.webp" class="d-block w-100 img-fluid" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/banner_bills_2024.webp" class="d-block w-100 img-fluid" alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+
+                        </div>
+                        <div class="col-6 p-0 h-100 a_tbdr">
+                            
+                        </div>
+                    </div>
+                </section>
+                <section class="a_m3 a_tbdr text-danger">
+                    <ul class="nav">
+                        <li class="nav-item p-3 border  rounded-4  border-dark m-3">
+                            <a class="nav-link active " aria-current="page" href="#">  <i class="fa-solid fa-utensils "></i>  Restaurants</a>
+                        </li>
+                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                            <a class="nav-link" href="#"> <i class="fa-solid fa-hotel"></i> Hotels</a>
+                        </li>
+                        <li class=" nav-item p-3  border rounded-4 border-dark m-3">
+                            <a class="nav-link" href="#"> <i class="fa-solid fa-spa"></i> Beauty Spa</a>
+                        </li>
+                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                            <a class="nav-link " href="#"> <i class="fa-solid fa-house"></i> Home decor</a>
+                        </li>
+                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                            <a class="nav-link active" aria-current="page" href="#">Wedding Planning</a>
+                        </li>
+                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                            <a class="nav-link" href="#">Education</a>
+                        </li>
+                        <li class=" nav-item p-3  border rounded-4 border-dark m-3">
+                            <a class="nav-link" href="#">Rent & Hire</a>
+                        </li>
+                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                            <a class="nav-link " href="#">Hospitals</a>
+                        </li>
+                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                            <a class="nav-link active" aria-current="page" href="#">Contractors</a>
+                        </li>
+                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                            <a class="nav-link" href="#">Pet Shops</a>
+                        </li>
+                        <li class=" nav-item p-3  border rounded-4 border-dark m-3">
+                            <a class="nav-link" href="#">PG/Hostels</a>
+                        </li>
+                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                            <a class="nav-link " href="#" >Estate Agents</a>
+                        </li>
+                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                            <a class="nav-link active" aria-current="page" href="#">Dentists</a>
+                        </li>
+                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                            <a class="nav-link" href="#">Gym</a>
+                        </li>
+                        <li class=" nav-item p-3  border rounded-4 border-dark m-3">
+                            <a class="nav-link" href="#">Loan</a>
+                        </li>
+                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                            <a class="nav-link " href="#" >Event Organizers</a>
+                        </li>
+                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                            <a class="nav-link active" aria-current="page" href="#">Driving Schools</a>
+                        </li>
+                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                            <a class="nav-link" href="#">Packers&Movers</a>
+                        </li>
+                        <li class=" nav-item p-3  border rounded-4 border-dark m-3">
+                            <a class="nav-link" href="#">Courier Services</a>
+                        </li>
+                     </ul>
+                </section>
+                <section class="a_m4 a_tbdr">m4</section>
+                <section class="a_m5 a_tbdr">m5</section>
+            </main>
             <footer class="a_tbdr">footer</footer>
         </div>
         
