@@ -29,6 +29,7 @@
             }
             .a_m2{
                 height: 380px;
+                
             }
             .a_m3{
                 height: 355px;
@@ -74,22 +75,26 @@
                 object-fit: cover;
                 margin-bottom: 8px;
             }
+            .a_underline :hover{
+                text-decoration: underline;
+            }
         </style>
 
     </head>
     <body>
+        <button class=" btn btn-dark rounded-5 position-fixed bottom-0 end-0 me-2 mb-3  d-none a_gototop" onclick="goToTop()">
+            <i class="fa-solid fa-chevron-up"></i>
+        </button>
         <div class="container-fluid a_tbdr p-4 pt-0 pb-0">
-            <header class="a_tbdr fixed-top bg-white  ">
+            <header class="a_tbdr bg-white fixed-top w-100 mb-5  ">
                  <div class="row m-0 h-100">
                     <div class="col-2 p-0  ">
                          <img src="./img/caf6d980-5e8b-4104-984a-88028577edb2.png" alt="Website Banner" />
                     </div>
-                    <div class="col-2 p-0 "></div>
-                    <div class="col-8 p-0  d-flex align-items-center">
+                    <div class="col-6 p-0 d-flex justify-content-end align-items-center">
                         <ul class="nav">
-                            <li class=" p-4 ">
-                        </ul>
-                                <div class="dropdown ">
+                            <li class="nav-item a_wearehiring">
+                                 <div class="dropdown d-flex">
                                     <button class="btn dropdown-toggle text-primary " type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <i class="fa-solid fa-language text-primary"></i> En
                                     </button>
@@ -97,34 +102,38 @@
                                         <li><a class="dropdown-item" href="#">English-EN</a></li>
                                         <li><a class="dropdown-item" href="#">हिंदी - HI</a></li>
                                     </ul>
+                                    <ul class="nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-black text-dark d-flex" href="#">We Are Hiring</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-black text-dark d-flex" href="#">Investor Relation</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>        
                     </div>
+                    <div class="col-4 p-0  d-flex align-items-center">
+                        <ul class="nav">
+                            <li class=" p-4 ">
+                        </ul>
                     <div>
                          <ul class="nav">
                             <li class="nav-item">
-                            <button type="button" class="btn">Investor Relations</button>
-                            <a class="nav-link text-black text-dark" href="#"></a>
+                                <a class="nav-link text-black text-dark" href="#">Leads</a>
                             </li>
                             <li class="nav-item">
-                            <button type="button" class="btn">Leads</button>
-                            <a class="nav-link text-black text-dark" href="#"></a>
+                                <a class="nav-link text-black text-primary" href="#">Advertise</a>
                             </li>
                             <li class="nav-item">
-                            <button type="button" class="btn">Investor Relations</button>
-                            <a class="nav-link text-black text-dark" href="#"></a>
-                            </li>
-                            <li class="nav-item">
-                            <button type="button" class="btn">Free Listing</a></button>
-                            <a class="nav-link text-black text-dark" href="#"></a>
+                                <a class="nav-link text-black text-primary" href="#">Free Listing</a>
                             </li>
                             <li class="nav-item a_bell">
-                            <button type="button" class="btn btn-lg"><a class="nav-link text-black" href="#">
-                            <i class="fa-regular fa-bell"></i>
-                            </a></button>
+                                <i class="fa-regular fa-bell"></i>
                             </li>
                             <li class="nav-item a_dropdown">
-                            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Log-In / Sign-Up
-                                            
-                            </button>
+                             <a class="nav-link bg-primary text-white rounded-5 pt-1 pb-1 " aria-disabled="true" data-bs-toggle="modal" data-bs-target="#exampleModal">Login/SignUp</a>
                                             
                            </li>
                          </ul>
@@ -133,6 +142,7 @@
                  </div>
             </header>
             <main class="a_tbdr">
+                <br>
                 <section class="a_m1 a_tbdr">
                       <h2>
                     Search across <span class="fw-bold">'5.9 Crore+'</span> <span class="highlight-blue text-primary">Products &amp; Services</span>
@@ -159,11 +169,6 @@
                             <i class="fa-solid fa-microphone"></i>
                         </button>
                     </div>
-                 
-                  
-                 
-                  
-                 
                 </section>
                 <section class="a_m2 a_tbdr">
                     <div class="row m-0 h-100">
@@ -203,7 +208,7 @@
                 </section>
                 <section class="a_m3 a_tbdr text-danger ">
                     <ul class="nav">
-                        <li class="nav-item p-3 border  rounded-4  border-dark m-3">
+                        <li class="nav-item p-3 border  rounded-4  border-dark m-3 ">
                             <a class="nav-link active " aria-current="page" href="#"></a>
                             <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/restaurant-2022.svg?w=48&q=75"/>
                             <h6>Restaurants</h6>
@@ -781,26 +786,25 @@
                                 <p>Our 'Free Listing' feature gives a platform to showcase varied specialities. We then furnish you with the information via phone, SMS, web, App and WAP as well as, create a space for you to share your experiences through our 'Rate & Review' feature. Through the 'Best Deals', 'Last Minute Deals' and 'Live Quotes', we make sure that you are offered the best bargains in the market.</p>
                             </div>
                         </section>
-                        
                     
             </main>
-            <footer class="a_tbdr">
+            <footer class="a_tbdr ">
                  <div class="container my-5 n_foot">
                     <h2 class="mb-4 fw-semibold">Some of our services that will prove useful to you on a day-to-day basis are :</h2>
                     <div class="row row-cols-1 row-cols-md-3 g-4">
 
                         <!-- B2B -->
                         <div class="col">
-                        <div class="service-box">
+                        <div class="service-box a_underline ">
                             <i class="fa-solid fa-handshake"></i>
-                            <h6 class="mt-2">B2B</h6>
+                            <h6 class="mt-2 ">B2B</h6>
                             <p class="mb-0">Experience the ultimate B2B portal by Justdial. You can explore countless diverse categories, innumerable top-quality vendors, and an unmatched wholesale experience. You'll find everything you need for B2B requirements on this exclusive platform. Our interactive interface allows you to apply relevant filters, ascertain the best rates, and get instant assistance via chat.</p>
                         </div>
                         </div>
 
                         <!-- All India -->
                         <div class="col">
-                        <div class="service-box">
+                        <div class="service-box a_underline">
                             <i class="fa-solid fa-globe-asia"></i>
                             <h6 class="mt-2">All India</h6>
                             <p class="mb-0">Elevate your search for B2B requisites. From lead generation to promoting and selling products/services, Justdial enables enterprises to reach vast audiences all across India. Embracing digital strategies, Justdial India encompasses manufacturers, dealers, suppliers, vendors, wholesalers, and more, offering convenience in the B2B market space and empowering businesses nationwide.</p>
@@ -809,7 +813,7 @@
 
                         <!-- Packers and Movers -->
                         <div class="col">
-                        <div class="service-box">
+                        <div class="service-box a_underline">
                             <i class="fa-solid fa-truck-moving"></i>
                             <h6 class="mt-2">Packers and Movers</h6>
                             <p class="mb-0">If you’re relocating to another place, or even if you just want to send some belongings elsewhere, find the best deals on the most reliable packers and movers for your location. Get quotes from multiple agencies, read reviews from previous customers, and check ratings before making a selection for a hassle-free experience.</p>
@@ -818,7 +822,7 @@
 
                         <!-- Order Food Online -->
                         <div class="col">
-                        <div class="service-box">
+                        <div class="service-box a_underline">
                             <i class="fa-solid fa-utensils"></i>
                             <h6 class="mt-2">Order Food Online</h6>
                             <p class="mb-0">You are just three clicks away from placing an order and exploring a wide range of exotic cuisines. Order food online with Justdial and get your favourite food delivered at your doorstep. Search for restaurants, view reviews and ratings, avail discounts and order your food.</p>
@@ -827,7 +831,7 @@
 
                         <!-- Jobs -->
                         <div class="col">
-                        <div class="service-box">
+                        <div class="service-box a_underline">
                             <i class="fa-solid fa-briefcase"></i>
                             <h6 class="mt-2">Jobs</h6>
                             <p class="mb-0">Providing pertinent jobs to job seekers and relevant profiles to employers, this service will help you reach out to employers and vice-versa across industry verticals, experience levels and geographies.</p>
@@ -836,7 +840,7 @@
 
                         <!-- Movies -->
                         <div class="col">
-                        <div class="service-box">
+                        <div class="service-box a_underline">
                             <i class="fa-solid fa-film"></i>
                             <h6 class="mt-2">Movies</h6>
                             <p class="mb-0">This gives you access to book tickets and keep updated with the latest movies. With the provision of a synopsis, cast, crew and trailer, you can make a better choice in the movie you would like to watch.</p>
@@ -845,7 +849,7 @@
 
                         <!-- Spa & Salon -->
                         <div class="col">
-                        <div class="service-box">
+                        <div class="service-box a_underline">
                             <i class="fa-solid fa-spa"></i>
                             <h6 class="mt-2">Spa & Salon</h6>
                             <p class="mb-0">Skip the wait to get pampered at a spa or a salon. In a few clicks, 'Book an Appointment' online through Justdial before your next visit.</p>
@@ -854,7 +858,7 @@
 
                         <!-- Repair & Services -->
                         <div class="col">
-                        <div class="service-box">
+                        <div class="service-box a_underline">
                             <i class="fa-solid fa-screwdriver-wrench"></i>
                             <h6 class="mt-2">Repair & Services</h6>
                             <p class="mb-0">Find the 'Best Deal', be it for repairing your air-conditioner, getting your car serviced or cleaning your water purifier and drive your utility problems away.</p>
@@ -863,7 +867,7 @@
 
                         <!-- Doctor Appointment -->
                         <div class="col">
-                        <div class="service-box">
+                        <div class="service-box a_underline">
                             <i class="fa-solid fa-user-doctor"></i>
                             <h6 class="mt-2">Doctor Appointment</h6>
                             <p class="mb-0">Find the suitable medical specialist to take care of your health and well-being. Healthcare made easy.</p>
@@ -887,7 +891,57 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>
+           let triggered = false;
 
+           window.onscroll = function () {
+            const scrollTop = window.scrollY || document.documentElement.scrollTop;
+            const windowHeight = window.innerHeight;
+            const docHeight = document.documentElement.scrollHeight;
+
+            const scrollPercent = (scrollTop / (docHeight - windowHeight)) * 100;
+
+            const element =  document.querySelector('.a_wearehiring');
+            const elementt =  document.querySelector('.a_gototop');
+                if (scrollPercent >= 0.2){
+                    
+                    console.log("Hello World");
+                    if(element && element.style.display !== "none") {
+                        element.style.display = "none"; // Hide Element
+                    }
+                }else {
+                    if(element && element.style.display === "none") {
+                        element.style.display = "block"; // Show Element 
+                    }
+                }
+                if(scrollPercent >= 0.2){
+
+                    console.log("haa");
+                    if (elementt.classList.contains("d-none")) {
+                        elementt.classList.remove("d-none"); 
+                        elementt.classList.add("d-flex");
+
+                    }
+                } else {
+                    if(!elementt.classList.contains("d-none")) {
+                        elementt.classList.remove("d-flex"); 
+                        elementt.classList.add("d-none");
+
+
+                    }
+                    
+                }
+           };
+                   
+
+           
+
+        </script>
+
+        <script>
+            function goToTop(){
+
+                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
         </script>
     </body>
 </html>
