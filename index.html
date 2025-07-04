@@ -19,20 +19,21 @@
                 font-style: normal;
             }
             header{
-               min-height: 80px;
+               min-height: 50px;
+               z-index: 1000;
             }
             main{
                 min-height: 2500px;
             }
             .a_m1{
-                height: 119px;
+                height: 200px;
             }
             .a_m2{
                 height: 380px;
                 
             }
             .a_m3{
-                height: 355px;
+                height: 450px;
             }
             .a_m4{
                 height: 500px;
@@ -64,8 +65,20 @@
                 font-size: 20px;
                 margin-bottom: 15px;
             }
+            .a_card{
+                border-radius: 8px;
+                transition: 0.3 ease;
+            }
+            .a_cardbody{
+                padding: 0.75rem;
+            }
             .category-item {
                 text-align: center;
+                padding: 10px 15px;
+                border: 1px solid #ddd;
+                border-radius: 12px;
+                transition: transform 0.3s ease , box-shadow 0.3s ease;
+                background-color: #f9f9f9;
             }
             .category-item img {
                 border-radius: 8px;
@@ -78,15 +91,35 @@
             .a_underline :hover{
                 text-decoration: underline;
             }
+            .a_scroll{
+                border-radius: 20px;
+
+            }
+            .a_rotate-90{
+                transform: rotate(-90deg);
+                transform-origin: left top;
+                white-space: nowrap;
+            }
+            .a_adv_free{
+                right: -73px !important;
+            }
         </style>
 
     </head>
     <body>
-        <button class=" btn btn-dark rounded-5 position-fixed bottom-0 end-0 me-2 mb-3  d-none a_gototop" onclick="goToTop()">
+         <ul class="a_adv_free nav flex-column position-fixed top-50 end-0">
+            <li class="nav-item a_rotate-90 mb-5">
+                <a class=" rounded-top nav-link active bg-danger text-white" aria-current="page" href="#">Advertise</a>
+            </li>
+            <li class="nav-item a_rotate-90 mt-5">
+                <a class="rounded-top  nav-link bg-primary text-white" href="#">Free Listing</a>
+            </li>
+        </ul>
+        <button class=" btn btn-dark a_scroll position-fixed bottom-0 end-0 me-2 mb-3  d-none a_gototop" onclick="goToTop()">
             <i class="fa-solid fa-chevron-up"></i>
         </button>
-        <div class="container-fluid a_tbdr p-4 pt-0 pb-0">
-            <header class="a_tbdr bg-white fixed-top w-100 mb-5  ">
+        <div class="container-fluid  p-4 pt-0 pb-0">
+            <header class=" bg-white fixed-top w-100 mb-5 ">
                  <div class="row m-0 h-100">
                     <div class="col-2 p-0  ">
                          <img src="./img/caf6d980-5e8b-4104-984a-88028577edb2.png" alt="Website Banner" />
@@ -132,7 +165,7 @@
                             <li class="nav-item a_bell">
                                 <i class="fa-regular fa-bell"></i>
                             </li>
-                            <li class="nav-item a_dropdown">
+                            <li class="nav-item a_dropdown ">
                              <a class="nav-link bg-primary text-white rounded-5 pt-1 pb-1 " aria-disabled="true" data-bs-toggle="modal" data-bs-target="#exampleModal">Login/SignUp</a>
                                             
                            </li>
@@ -141,13 +174,13 @@
                  </div>
                  </div>
             </header>
-            <main class="a_tbdr">
+            <main class="a_tbdr mt-5">
                 <br>
-                <section class="a_m1 a_tbdr">
-                      <h2>
+                <section class="a_m1  mt-5 p-0 pt-5">
+                      <h2 class="mt-4">
                     Search across <span class="fw-bold">'5.9 Crore+'</span> <span class="highlight-blue text-primary">Products &amp; Services</span>
                     </h2>
-                     <div class="dropdown n_dropdown2">
+                     <div class="dropdown a_dropdown2">
                         <!-- Input outside the dropdown toggle -->
                         <button class="btn btn-drop dropdown-toggle w-20 n_dropdown2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fa-solid fa-location-dot n_dropdown2"> </i>
@@ -170,9 +203,9 @@
                         </button>
                     </div>
                 </section>
-                <section class="a_m2 a_tbdr">
+                <section class="a_m2 ">
                     <div class="row m-0 h-100">
-                        <div class="col-6 p-0 h-100 a_tbdr ">
+                        <div class="col-6 p-0 h-100  ">
                         <div id="carouselExampleIndicators" class="carousel slide">
                                 <div class="carousel-indicators">
                                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -200,112 +233,112 @@
                                 </button>
                                 </div>
 
-                        </div>
-                        <div class="col-6 p-0 h-100 a_tbdr">
-                            
-                        </div>
+                        </div>>
                     </div>
                 </section>
-                <section class="a_m3 a_tbdr text-danger ">
+                <div class="row p-0">
+                    
+                </div>
+                <section class="a_m3  text-danger ">
                     <ul class="nav">
-                        <li class="nav-item p-3 border  rounded-4  border-dark m-3 ">
-                            <a class="nav-link active " aria-current="page" href="#"></a>
+                        <li class="nav-item category-item border-dark m-3 ">
+                            <a class="nav-link active  " aria-current="page" href="#"></a>
                             <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/restaurant-2022.svg?w=48&q=75"/>
                             <h6>Restaurants</h6>
                         </li>
-                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                        <li class="nav-item p-3 category-item border-dark m-3">
                             <a class="nav-link" href="#"></a>
                             <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/hotel-2022.svg?w=48&q=75"/>
                             <h6>Hotels</h6>
                         </li>
-                        <li class=" nav-item p-3  border rounded-4 border-dark m-3">
+                        <li class=" nav-item p-3 category-item border-dark m-3">
                             <a class="nav-link" href="#"></a>
                             <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/beauty.svg?w=48&q=75"/>
                             <h6>Beauty Spa</h6>
                         </li>
-                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                        <li class="nav-item p-3 category-item border-dark m-3">
                             <a class="nav-link " href="#"></a>
                             <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/homedecor.svg?w=48&q=75"/>
                             <h6>Home Decor</h6>
                         </li>
-                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                        <li class="nav-item p-3 category-item border-dark m-3">
                             <a class="nav-link active" aria-current="page" href="#"></a>
                             <img src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/hotkey_wedding_icon.gif?w=48&q=75"/>
                             <h6>Wedding Planning</h6>
                         </li>
-                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                        <li class="nav-item p-3  category-item border-dark m-3">
                             <a class="nav-link" href="#"></a>
                             <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/education.svg?w=48&q=75"/>
                             <h6>Education</h6>
                         </li>
-                        <li class=" nav-item p-3  border rounded-4 border-dark m-3">
+                        <li class=" nav-item p-3 category-item border-dark m-3">
                             <a class="nav-link" href="#"></a>
                             <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/renthire.svg?w=48&q=75"/>
                             <h6>Rent&Hire</h6>
                         </li>
-                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                        <li class="nav-item p-3 category-item border-dark m-3">
                             <a class="nav-link " href="#"></a>
                             <img src="	https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/hospital_2023.svg?w=48&q=75"/>
                             <h6>Hospitals</h6>
                         </li>
-                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                        <li class="nav-item p-3 category-item border-dark m-3">
                             <a class="nav-link active" aria-current="page" href="#"></a>
                             <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/contractor-2022.svg?w=48&q=75"/>
                             <h6>Contracters</h6>
                         </li>
-                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                        <li class="nav-item p-3 category-item border-dark m-3">
                             <a class="nav-link" href="#"></a>
                             <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/pet_shops_2023.svg?w=48&q=75"/>
                             <h6>Pet Shops</h6>
                         </li>
-                        <li class=" nav-item p-3  border rounded-4 border-dark m-3">
+                        <li class=" nav-item p-3 category-item border-dark m-3">
                             <a class="nav-link" href="#"></a>
                             <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/pg,hostelsandrooms.svg"/>
                             <h6>PG/Hostels</h6>
                         </li>
-                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                        <li class="nav-item p-3 category-item border-dark m-3">
                             <a class="nav-link " href="#" ></a>
                             <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/estate-agent.svg?w=48&q=75"/>
                             <h6>Estate Agents</h6>
                         </li>
-                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                        <li class="nav-item p-3 category-item border-dark m-3">
                             <a class="nav-link active" aria-current="page" href="#"></a>
                             <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/dentist_2023.svg?w=48&q=75"/>
                             <h6>Dentists</h6>
                         </li>
-                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                        <li class="nav-item p-3  category-item border-dark m-3">
                             <a class="nav-link" href="#"></a>
                             <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/gym_2023.svg?w=48&q=75"/>
                             <h6>Gym</h6>
                         </li>
-                        <li class=" nav-item p-3  border rounded-4 border-dark m-3">
+                        <li class=" nav-item p-3 category-item border-dark m-3">
                             <a class="nav-link" href="#"></a>
                             <img src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/newhotkey/loans.svg?w=48&q=75"/>
                             <h6>Loan</h6>
                         </li>
-                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                        <li class="nav-item p-3 category-item border-dark m-3">
                             <a class="nav-link " href="#" ></a>
                             <img src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/newhotkey/loans.svg?w=48&q=75"/>
                             <h6>Event Organizers</h6>
                         </li>
-                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                        <li class="nav-item p-3 category-item border-dark m-3">
                             <a class="nav-link active" aria-current="page" href="#"></a>
                             <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/driving_school_2023.svg?w=48&q=75"/>
                             <h6>Driving Schools</h6>
                         </li>
-                        <li class="nav-item p-3  border rounded-4 border-dark m-3">
+                        <li class="nav-item p-3 category-item border-dark m-3">
                             <a class="nav-link" href="#"></a>
                             <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/packers_movers_2023.svg?w=48&q=75"/>
                             <h6>Packers&Movers</h6>
                         </li>
-                        <li class=" nav-item p-3  border rounded-4 border-dark m-3">
+                        <li class=" nav-item p-3 category-item border-dark  m-3">
                             <a class="nav-link" href="#"></a>
                             <img src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/courier_2023.svg?w=48&q=75"/>
                             <h6>Courier Services</h6>
                         </li>
                      </ul>
                 </section>
-                <section class="a_m4 a_tbdr"> 
+                <section class="a_m4 "> 
                     <div class="container my-4">
                              <div class="row overflow-hidden n_slide rounded-2 img-fluid">
                                 <div class="col-md-6">
@@ -348,7 +381,7 @@
                                     </div>       
                                 </div>
                             </section>
-                <section class="a_m5 a_tbdr">
+                <section class="a_m5">
                             <div class="container py-4">
                                 <!-- Bills & Recharge -->
                                 <div class="service-box">
@@ -451,7 +484,7 @@
                                 </div>
                                 </div>
                 </section>
-                 <section class="a_m6 a_tbdr">
+                 <section class="a_m6 ">
                                     <div class="container my-5 ">
                                         <!-- Title -->
                                         <div class="d-flex align-items-center mb-3">
@@ -636,7 +669,7 @@
                                 </div>
                         </section>
                         <section>
-                        <div class="container my-5">
+                        <div class="container a_m6">
                                         <!-- Title -->
                                         <div class="d-flex align-items-center mb-3">
                                             <h4 class="fw-bold mb-0">Explore Top Tourist Places</h4>
@@ -769,7 +802,7 @@
                         </div>
 
                         </section>
-                         <section class="a_m7 a_tbdr">
+                         <section class="a_m7 ">
                             <div class="social-icons">
                                 Follow us on: 
                                 <a href="https://www.facebook.com/JustDial"><i class="fab fa-facebook"></i></a>
