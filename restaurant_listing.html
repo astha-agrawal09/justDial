@@ -88,7 +88,6 @@
 
         .a_card {
             border-radius: 8px;
-            transition: 0.3 ease;
         }
 
         .a_cardbody {
@@ -166,651 +165,651 @@
 </head>
 
 <body>
-    <ul class="a_adv_free nav flex-column position-fixed top-50 end-0">
-        <li class="nav-item a_rotate-90 mb-5">
-            <a class=" rounded-top nav-link active bg-danger text-white" aria-current="page" href="#">Advertise</a>
-        </li>
-        <li class="nav-item a_rotate-90 mt-5">
-            <a class="rounded-top  nav-link bg-primary text-white" href="#">Free Listing</a>
-        </li>
-    </ul>
-    <button class=" btn btn-dark a_scroll position-fixed bottom-0 end-0 me-2 mb-3  d-none a_gototop"
-        onclick="goToTop()">
-        <i class="fa-solid fa-chevron-up"></i>
-    </button>
-    <div class="container-fluid  pt-0 pb-0">
-        <header class=" bg-white fixed-top w-100 mb-5 ">
-            <div class="row m-0 h-100">
-                <div class="col-1 p-0  ">
-                    <img src="./img/caf6d980-5e8b-4104-984a-88028577edb2.png" alt="Website Banner" />
-                </div>
-                <div class="dropdown a_dropdown2 col-4 start-25 mt-5 d-block ">
-                    <!-- Input outside the dropdown toggle -->
-                    <button class="btn btn-drop dropdown-toggle w-20 a_dropdown2" type="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fa-solid fa-location-dot a_dropdown2"> </i>
-                    </button>
-                    <input type="text" placeholder="Select Location">
-                    <!-- Dropdown menu -->
-                    <ul class="dropdown-menu a_dropdown2" id="locationDropdown">
-                        <li><a class="dropdown-item" href="#">Mira Road East,Thane</a></li>
-                        <li><a class="dropdown-item" href="#">Kandivali,Mumbai</a></li>
-                        <li><a class="dropdown-item" href="#">Malad West,Mumbai</a></li>
-                        <li><a class="dropdown-item" href="#">Kandivali West,Mumbai</a></li>
-                        <li><a class="dropdown-item" href="#">Thane West,Thane</a></li>
-                        <li><a class="dropdown-item" href="#">Nalasopara East,Palghar</a></li>
-                        <li><a class="dropdown-item" href="#">Mumbai Central,Mumbai</a></li>
-                    </ul>
-                    <button class="btn a_dropdown2" type="button" aria-expanded="false">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <i class="fa-solid fa-microphone"></i>
-                    </button>
-                     <input type="text" placeholder="Search in Mumbai">
-                </div>
-                <div class="col-3 p-0 d-flex justify-content-end align-items-center">
+
+    <header class=" bg-white fixed-top w-100 mb-5 ">
+        <ul class="a_adv_free nav flex-column position-fixed top-50 end-0">
+            <li class="nav-item a_rotate-90 mb-5">
+                <a class=" rounded-top nav-link active bg-danger text-white" aria-current="page" href="#">Advertise</a>
+            </li>
+            <li class="nav-item a_rotate-90 mt-5">
+                <a class="rounded-top  nav-link bg-primary text-white" href="#">Free Listing</a>
+            </li>
+        </ul>
+        <button class=" btn btn-dark a_scroll position-fixed bottom-0 end-0 me-2 mb-3  d-none a_gototop"
+            onclick="goToTop()">
+            <i class="fa-solid fa-chevron-up"></i>
+        </button>
+
+        <div class="row m-0 h-100">
+            <div class="col-1 p-0  ">
+                <img src="./img/caf6d980-5e8b-4104-984a-88028577edb2.png" alt="Website Banner" />
+            </div>
+            <div class="dropdown a_dropdown2 col-4 start-25 mt-5 d-block ">
+                <!-- Input outside the dropdown toggle -->
+                <button class="btn btn-drop dropdown-toggle w-20 a_dropdown2" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="fa-solid fa-location-dot a_dropdown2"> </i>
+                </button>
+                <input type="text" placeholder="Select Location">
+                <!-- Dropdown menu -->
+                <ul class="dropdown-menu a_dropdown2" id="locationDropdown">
+                    <li><a class="dropdown-item" href="#">Mira Road East,Thane</a></li>
+                    <li><a class="dropdown-item" href="#">Kandivali,Mumbai</a></li>
+                    <li><a class="dropdown-item" href="#">Malad West,Mumbai</a></li>
+                    <li><a class="dropdown-item" href="#">Kandivali West,Mumbai</a></li>
+                    <li><a class="dropdown-item" href="#">Thane West,Thane</a></li>
+                    <li><a class="dropdown-item" href="#">Nalasopara East,Palghar</a></li>
+                    <li><a class="dropdown-item" href="#">Mumbai Central,Mumbai</a></li>
+                </ul>
+                <button class="btn a_dropdown2" type="button" aria-expanded="false">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-microphone"></i>
+                </button>
+                <input type="text" placeholder="Search in Mumbai">
+            </div>
+            <div class="col-3 p-0 d-flex justify-content-end align-items-center">
+                <ul class="nav">
+                    <li class="nav-item a_wearehiring">
+                        <div class="dropdown d-flex">
+                            <button class="btn dropdown-toggle text-primary " type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="fa-solid fa-language text-primary"></i> En
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">English-EN</a></li>
+                                <li><a class="dropdown-item" href="#">हिंदी - HI</a></li>
+                            </ul>
+                            <ul class="nav">
+                                <li class="nav-item">
+                                    <a class="nav-link text-black text-dark d-flex" href="#">We Are Hiring</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-black text-dark d-flex" href="#">Investor Relation</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-4 p-0  d-flex align-items-center">
+                <ul class="nav">
+                    <li class=" p-4 ">
+                </ul>
+                <div>
                     <ul class="nav">
-                        <li class="nav-item a_wearehiring">
-                            <div class="dropdown d-flex">
-                                <button class="btn dropdown-toggle text-primary " type="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="fa-solid fa-language text-primary"></i> En
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">English-EN</a></li>
-                                    <li><a class="dropdown-item" href="#">हिंदी - HI</a></li>
-                                </ul>
-                                <ul class="nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link text-black text-dark d-flex" href="#">We Are Hiring</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-black text-dark d-flex" href="#">Investor Relation</a>
-                                    </li>
-                                </ul>
-                            </div>
+                        <li class="nav-item">
+                            <a class="nav-link text-black text-dark" href="#">Leads</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black text-primary" href="#">Advertise</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black text-primary" href="#">Free Listing</a>
+                        </li>
+                        <li class="nav-item a_bell">
+                            <i class="fa-regular fa-bell"></i>
+                        </li>
+                        <li class="nav-item a_dropdown ">
+                            <a class="nav-link bg-primary text-white rounded-5 pt-1 pb-1 " aria-disabled="true"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal">Login/SignUp</a>
+
                         </li>
                     </ul>
                 </div>
-                <div class="col-4 p-0  d-flex align-items-center">
-                    <ul class="nav">
-                        <li class=" p-4 ">
-                    </ul>
-                    <div>
-                        <ul class="nav">
-                            <li class="nav-item">
-                                <a class="nav-link text-black text-dark" href="#">Leads</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-black text-primary" href="#">Advertise</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-black text-primary" href="#">Free Listing</a>
-                            </li>
-                            <li class="nav-item a_bell">
-                                <i class="fa-regular fa-bell"></i>
-                            </li>
-                            <li class="nav-item a_dropdown ">
-                                <a class="nav-link bg-primary text-white rounded-5 pt-1 pb-1 " aria-disabled="true"
-                                    data-bs-toggle="modal" data-bs-target="#exampleModal">Login/SignUp</a>
+            </div>
+        </div>
+    </header>
+    <main class="bg-white p-0 mt-5 a_tbdr ">
+        <!-- Banner Section -->
+        <section class="position-relative text-white text-center a_bl_m1 mb-5 overflow-hidden ">
+            <img src="https://www.shutterstock.com/image-photo/full-table-indian-food-captured-260nw-2448244995.jpg"
+                class="w-100" alt="Food Banner" style="max-height: 400px; object-fit: cover;">
+            <div class="position-absolute top-50 start-50 translate-middle text-white">
+                <h1 class="fw-bold">IT'S ALL ABOUT FOOD</h1>
+            </div>
 
-                            </li>
-                        </ul>
+            <!-- Overlapping Card Section -->
+            <div class="position-absolute w-100 a_bl_m2 " style="bottom: -40%; left: 0;">
+                <div class="d-flex justify-content-center gap-4 flex-wrap mb-5">
+                    <div class="px-4 py-3 bg-white rounded-3 shadow-sm text-center">
+                        <img src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/resfilter_booktable.svg?w=64&q=75"
+                            alt="Book Table" width="40" class="mb-2">
+                        <p class="fw-bold mb-1 text-dark">Book A Table</p>
+                        <a href="#" class="text-decoration-none text-primary">Make Reservation &gt;</a>
+                    </div>
+                    <div class="px-4 py-3 bg-white rounded-3 shadow-sm text-center">
+                        <img src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/resfilter_trending.svg?w=64&q=75"
+                            alt="Trending" width="40" class="mb-2">
+                        <p class="fw-bold mb-1 text-dark">WHAT'S TRENDING?</p>
+                        <a href="#" class="text-decoration-none text-primary">Try it Yourself &gt;</a>
+                    </div>
+                    <div class="px-4 py-3 bg-white rounded-3 shadow-sm text-center">
+                        <img src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/resfilter_orderfood.svg?w=64&q=75"
+                            alt="Order Food" width="40" class="mb-2">
+                        <p class="fw-bold mb-1 text-dark">ORDER FOOD</p>
+                        <a href="#" class="text-decoration-none text-primary">6102 Restaurants &gt;</a>
                     </div>
                 </div>
             </div>
-        </header>
-        <main class="bg-white p-0 mt-5 a_tbdr ">
-            <!-- Banner Section -->
-            <section class="position-relative text-white text-center a_bl_m1 mb-5 overflow-hidden ">
-                <img src="https://www.shutterstock.com/image-photo/full-table-indian-food-captured-260nw-2448244995.jpg"
-                    class="w-100" alt="Food Banner" style="max-height: 400px; object-fit: cover;">
-                <div class="position-absolute top-50 start-50 translate-middle text-white">
-                    <h1 class="fw-bold">IT'S ALL ABOUT FOOD</h1>
+        </section>
+
+        <!-- Categories -->
+        <section class="pt-5 mt-5 p-4 mb-5 ">
+            <div class="row g-4 ">
+                <div class="col-6 col-md-4 col-lg-2 ">
+                    <a href="restaurant_detail.html">
+                        <div class="card h-100 d-flex flex-column">
+                            <img src="https://akam.cdn.jdmagicbox.com/images/icons/website/i_indianflavours.jpg?w=256&q=75"
+                                class="card-img-top img-zoom" alt="Indian Flavours">
+                            <div class="card-body text-center text-dark">
+                                <h5 class="card-title">Indian Flavours</h5>
+                                <ul class="list-unstyled">
+                                    <li>- Tandoori</li>
+                                    <li>- South Indian</li>
+                                    <li>- Pure Veg </li>
+                                    <li>- North Indian</li>
+                                    <li class="text-primary mt-3">- More</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </a>
                 </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="card h-100 d-flex flex-column">
+                        <img src="https://akam.cdn.jdmagicbox.com/images/icons/website/i_globalcuisines.jpg?w=256&q=75"
+                            class="card-img-top img-zoom " alt="Indian Flavours">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Global Cuisines</h5>
+                            <ul class="list-unstyled">
+                                <li>- Pan Asian</li>
+                                <li>- Continental</li>
+                                <li>- Italian </li>
+                                <li>- chinese</li>
+                                <li class="text-primary mt-3">- More</li>
 
-                <!-- Overlapping Card Section -->
-                <div class="position-absolute w-100 a_bl_m2 " style="bottom: -40%; left: 0;">
-                    <div class="d-flex justify-content-center gap-4 flex-wrap mb-5">
-                        <div class="px-4 py-3 bg-white rounded-3 shadow-sm text-center">
-                            <img src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/resfilter_booktable.svg?w=64&q=75"
-                                alt="Book Table" width="40" class="mb-2">
-                            <p class="fw-bold mb-1 text-dark">Book A Table</p>
-                            <a href="#" class="text-decoration-none text-primary">Make Reservation &gt;</a>
-                        </div>
-                        <div class="px-4 py-3 bg-white rounded-3 shadow-sm text-center">
-                            <img src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/resfilter_trending.svg?w=64&q=75"
-                                alt="Trending" width="40" class="mb-2">
-                            <p class="fw-bold mb-1 text-dark">WHAT'S TRENDING?</p>
-                            <a href="#" class="text-decoration-none text-primary">Try it Yourself &gt;</a>
-                        </div>
-                        <div class="px-4 py-3 bg-white rounded-3 shadow-sm text-center">
-                            <img src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/resfilter_orderfood.svg?w=64&q=75"
-                                alt="Order Food" width="40" class="mb-2">
-                            <p class="fw-bold mb-1 text-dark">ORDER FOOD</p>
-                            <a href="#" class="text-decoration-none text-primary">6102 Restaurants &gt;</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Categories -->
-            <section class="pt-5 mt-5 p-4 mb-5 ">
-                <div class="row g-4 ">
-                    <div class="col-6 col-md-4 col-lg-2 ">
-                        <a href="restaurant_detail.html">
-                            <div class="card h-100 d-flex flex-column">
-                                <img src="https://akam.cdn.jdmagicbox.com/images/icons/website/i_indianflavours.jpg?w=256&q=75"
-                                    class="card-img-top img-zoom" alt="Indian Flavours">
-                                <div class="card-body text-center text-dark">
-                                    <h5 class="card-title">Indian Flavours</h5>
-                                    <ul class="list-unstyled">
-                                        <li>- Tandoori</li>
-                                        <li>- South Indian</li>
-                                        <li>- Pure Veg </li>
-                                        <li>- North Indian</li>
-                                        <li class="text-primary mt-3">- More</li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-2">
-                        <div class="card h-100 d-flex flex-column">
-                            <img src="https://akam.cdn.jdmagicbox.com/images/icons/website/i_globalcuisines.jpg?w=256&q=75"
-                                class="card-img-top img-zoom " alt="Indian Flavours">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Global Cuisines</h5>
-                                <ul class="list-unstyled">
-                                    <li>- Pan Asian</li>
-                                    <li>- Continental</li>
-                                    <li>- Italian </li>
-                                    <li>- chinese</li>
-                                    <li class="text-primary mt-3">- More</li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-2">
-                        <div class="card h-100 d-flex flex-column">
-                            <img src="	https://akam.cdn.jdmagicbox.com/images/icons/website/i_nightlife.jpg?w=256&q=75"
-                                class="card-img-top img-zoom" alt="Indian Flavours">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Nightlife</h5>
-                                <ul class="list-unstyled">
-                                    <li>- Pubs</li>
-                                    <li>- Launge Bars</li>
-                                    <li>- Night Club</li>
-                                    <li>- Restaurants &amp; Bars</li>
-                                    <li class="text-primary mt-3">- More</li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-2">
-                        <div class="card h-100 d-flex flex-column">
-                            <img src="https://akam.cdn.jdmagicbox.com/images/icons/website/i_quickbites.jpg?w=256&q=75"
-                                class="card-img-top img-zoom" alt="Indian Flavours">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Quick Bites</h5>
-                                <ul class="list-unstyled">
-                                    <li>- Bakeries</li>
-                                    <li>- Coffee Shops</li>
-                                    <li>- Fast Food</li>
-                                    <li>- Pizza Outlets</li>
-                                    <li class="text-primary mt-3">- More</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-2">
-                        <div class="card h-100 d-flex flex-column">
-                            <img src="https://akam.cdn.jdmagicbox.com/images/icons/website/i_sweettooth.jpg?w=256&q=75"
-                                class="card-img-top img-zoom" alt="Indian Flavours">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Sweet Tooth</h5>
-                                <ul class="list-unstyled">
-                                    <li>- Cake Shops</li>
-                                    <li>- Desserts</li>
-                                    <li>- Donut Outlets</li>
-                                    <li>- Sweets</li>
-                                    <li class="text-primary mt-3">- More</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-2">
-                        <div class="card h-100 d-flex flex-column">
-                            <img src="https://akam.cdn.jdmagicbox.com/images/icons/website/i_foodie.jpg?w=256&q=75"
-                                class="card-img-top img-zoom" alt="Indian Flavours">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Foodie</h5>
-                                <ul class="list-unstyled">
-                                    <li>- Chinese</li>
-                                    <li>- Dhaba Joints</li>
-                                    <li>- Fab Biryanis</li>
-                                    <li>- Thali Feasts</li>
-                                    <li class="text-primary mt-3">- More</li>
-
-                                </ul>
-                            </div>
+                            </ul>
                         </div>
                     </div>
                 </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="card h-100 d-flex flex-column">
+                        <img src="	https://akam.cdn.jdmagicbox.com/images/icons/website/i_nightlife.jpg?w=256&q=75"
+                            class="card-img-top img-zoom" alt="Indian Flavours">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Nightlife</h5>
+                            <ul class="list-unstyled">
+                                <li>- Pubs</li>
+                                <li>- Launge Bars</li>
+                                <li>- Night Club</li>
+                                <li>- Restaurants &amp; Bars</li>
+                                <li class="text-primary mt-3">- More</li>
 
-                <div class="text-center my-5">
-                    <button class="btn btn-primary d-inline-flex align-items-center px-5 py-2 ">
-                        <span class="me-2 ">View All Categories</span>
-                    </button>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </section>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="card h-100 d-flex flex-column">
+                        <img src="https://akam.cdn.jdmagicbox.com/images/icons/website/i_quickbites.jpg?w=256&q=75"
+                            class="card-img-top img-zoom" alt="Indian Flavours">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Quick Bites</h5>
+                            <ul class="list-unstyled">
+                                <li>- Bakeries</li>
+                                <li>- Coffee Shops</li>
+                                <li>- Fast Food</li>
+                                <li>- Pizza Outlets</li>
+                                <li class="text-primary mt-3">- More</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="card h-100 d-flex flex-column">
+                        <img src="https://akam.cdn.jdmagicbox.com/images/icons/website/i_sweettooth.jpg?w=256&q=75"
+                            class="card-img-top img-zoom" alt="Indian Flavours">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Sweet Tooth</h5>
+                            <ul class="list-unstyled">
+                                <li>- Cake Shops</li>
+                                <li>- Desserts</li>
+                                <li>- Donut Outlets</li>
+                                <li>- Sweets</li>
+                                <li class="text-primary mt-3">- More</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="card h-100 d-flex flex-column">
+                        <img src="https://akam.cdn.jdmagicbox.com/images/icons/website/i_foodie.jpg?w=256&q=75"
+                            class="card-img-top img-zoom" alt="Indian Flavours">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Foodie</h5>
+                            <ul class="list-unstyled">
+                                <li>- Chinese</li>
+                                <li>- Dhaba Joints</li>
+                                <li>- Fab Biryanis</li>
+                                <li>- Thali Feasts</li>
+                                <li class="text-primary mt-3">- More</li>
 
-            <section class="a_m2 p-5  mt-5">
-
-                <h5 class="fw-bold">Unveiling the Culinary Treasures: Exploring Local Restaurants &amp; Eateries near
-                    Mumbai
-                </h5>
-                <h6>Welcome to the vibrant world of local restaurants, where every dish tells a story and every bite is
-                    an adventure! In this article, we will take a delightful journey through the bustling streets and
-                    cozy corners of your neighborhood to discover the hidden gems known as eateries, food places, and
-                    top-rated restaurants. From savory sensations to sweet delights, there's something for every palate
-                    in these food spots that define the essence of culinary excellence.</h6>
-
-                <h5 class="mt-4 fw-bold">Exploring the Local Scene</h5>
-                <h6>When it comes to experiencing the true essence of a city or town, few things rival the joy of
-                    indulging in its local cuisine. Local restaurants offer a glimpse into the heart and soul of a
-                    community, serving up not just food but also a sense of belonging and tradition. Whether you're
-                    craving comfort food or eager to explore exotic flavors, these culinary havens have something to
-                    satisfy every craving.</h6>
-
-                <h5 class="mt-4 fw-bold">Restaurant Menu: A Feast for the Senses</h5>
-                <h6>Step inside any local restaurant, and you'll be greeted by a symphony of aromas, colors, and flavors
-                    that titillate the senses. From sizzling steaks to aromatic curries, the restaurant menu is a
-                    treasure trove of culinary delights waiting to be explored. Each dish is carefully crafted to
-                    tantalize the taste buds and leave a lasting impression, ensuring that every meal is a memorable
-                    experience.</h6>
-
-                <h5 class="mt-4 fw-bold">Global Cuisines: A World of Flavors at Your Doorstep </h5>
-                <h6>One of the greatest joys of dining at local restaurants is the opportunity to embark on a culinary
-                    journey around the world without ever leaving your neighborhood. From Italian trattorias to Thai
-                    street food stalls, these establishments offer a diverse array of global cuisines that reflect the
-                    rich tapestry of cultures that call your city home. Whether you're in the mood for a taste of India
-                    or craving the bold flavors of Mexico, you'll find it all right here in your own backyard.</h6>
-
-                <h5 class="mt-4 fw-bold">Nightlife: Where Food Meets Entertainment </h5>
-                <h6>Local restaurants aren't just about great food; they're also hubs of social activity and nightlife.
-                    As the sun sets and the city comes alive, these eateries transform into vibrant gathering spots
-                    where friends come together to eat, drink, and make memories. Whether you're looking for a cozy
-                    corner to enjoy a romantic dinner or a lively atmosphere to dance the night away, the local
-                    restaurant scene has something for everyone.</h6>
-
-                <h5 class="mt-4 fw-bold">Quick Bites: On-the-Go Gastronomy </h5>
-                <h6>In today's fast-paced world, convenience is key, and local restaurants are here to deliver. Whether
-                    you're rushing to catch a train or grabbing a quick bite between meetings, these food spots offer a
-                    delicious solution to your hunger pangs. From gourmet sandwiches to freshly baked pastries, you'll
-                    find an array of quick bites that are as satisfying as they are convenient.</h6>
-
-                <h5 class="mt-4 fw-bold">Sweet Tooth: Indulge Your Dessert Desires </h5>
-                <h6>No meal is complete without something sweet to satisfy your sweet tooth, and local restaurants have
-                    you covered. From decadent cakes to artisanal chocolates, these establishments offer a tempting
-                    array of desserts that are sure to delight your taste buds. Whether you're celebrating a special
-                    occasion or simply treating yourself to a little indulgence, there's no shortage of sweet treats to
-                    choose from.</h6>
-
-                <h3 class="mt-5 ">Frequently Asked Questions</h3>
-
-                <h5 class="mt-4 fw-bold">1. What are the key factors to consider when choosing a restaurant in Mumbai?
-                </h5>
-                <h6>You should consider the type of cuisine you're in the mood for, the restaurant's location, its
-                    hygiene standards, ambiance, price range, customer reviews, and any special requirements like
-                    vegetarian options, parking, or Wi-Fi.</h6>
-
-                <h5 class="mt-4 fw-bold">2. How can I find the best local restaurants in Mumbai?</h5>
-                <h6>You can use online platforms such as Justdial, Zomato, Swiggy or Google Maps. Asking locals or
-                    friends for recommendations, checking social media pages and food blogs, and looking for popular
-                    food festivals or food trails can also help.</h6>
-
-                <h5 class="mt-4 fw-bold">3. What should I look for in online reviews of Indian restaurants?</h5>
-                <h6>Look for consistency in positive feedback regarding food quality and taste, comments on cleanliness
-                    and hygiene, feedback on service and staff behavior, information on portion sizes and value for
-                    money, and any recurring negative comments or issues mentioned by multiple reviewers</h6>
-
-                <h5 class="mt-4 fw-bold">4. Are there any safety tips to keep in mind when dining out in India?</h5>
-                <h6>Opt for bottled water to avoid waterborne diseases. Check the hygiene rating of the restaurant.
-                    Prefer busy and well-reviewed places, as high turnover often indicates freshness. Be cautious of
-                    street food; ensure it's cooked fresh and served hot. Verify the authenticity of ingredients,
-                    especially in international cuisine restaurants.</h6>
-
-                <h5 class="mt-4 fw-bold">5. What are some famous regional cuisines to try in different parts of India?
-                </h5>
-                <h6>In North India, you can try Punjabi, Kashmiri, and Mughlai cuisines. In South India, popular options
-                    include Andhra, Tamil, Kerala, Karnataka, Goan, and Chettinad cuisines. In West India, you can
-                    explore Gujarati, Maharashtrian, and Goan cuisines. East India offers Bengali, Assamese, and Oriya
-                    cuisines.</h6>
-
-
-            </section>
-
-        </main>
-        <footer class="bg-light text-dark text-center p-4">
-            <!-- SOCIAL MEDIA LINKS -->
-            <div class="mt-2 d-flex align-items-center">
-                <span class="me-2">Follow us on</span>
-                <img src="https://img.freepik.com/premium-photo/facebook-logo_1080029-107.jpg?semt=ais_hybrid&w=740"
-                    alt="Facebook" width="25" height="25" class="me-2">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
-                    alt="Instagram" width="25" height="25" class="me-2">
-                <img src="https://e7.pngegg.com/pngimages/208/269/png-clipart-youtube-play-button-computer-icons-youtube-youtube-logo-angle-rectangle-thumbnail.png"
-                    alt="YouTube" width="25" height="25" class="me-2">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJwny5COlA8x8T6b-t7ex1IiOJWbnma96M0-3pyeTKkwSgNLNThEICL8PFFw&s"
-                    alt="Twitter" width="25" height="25" class="me-2">
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAllBMVEUMZMX///8AYcQAWcFDf8nL3PIAWrzQ3vMAYcI0eclZjtAucslAgsz6/v3x9/sgbclOhM8AX8QAYsAAX70AV70AWMLm7vgAXb4sdsw5fsoRbsVmltK6z+iUt+AMZcGDrN3c6fNvnddiltWqwuPA0+r0+vyOrt+lweR9pduuyueUst9Lh81pldd1mtYdbcunxOXO4u7Z4fGRyVlRAAAEKUlEQVR4nO3ce1faMBzG8SblEpSCiUUuQrkMhsCc+v7f3Ko4KjW/yLY0WXOez9mf4Ml3vSW1NYoAAAAAAAAAAAAAAAAAAAAAAAAAAADgYiriIsqU72FURcapGnXHk5aMue+xVCCT6n56x960Z2OpMt8jsozz+Xve0Xqc+h6SXbKzYOeSfex7UBap+J591lThHI3awPxw5KGcVFUj0RayaRrI6UaUj8GTpfA9NivknApkvTC2YdwjC9lc+h6dBWpFB7JFCIXx1FDIRr6HZ0Fq2EkZewjgXNMnLhVH34a+x/fPeMdYOK3/gchvTIFsXf/ZKR+bC+u/DcW1cS/d1f84jFobU+H3ANYXadNU2PU9PAvkd0Ngz/forMgMhU/1P5Xm4h0ZmHQCOAzz68WEPNdsg9iE+ZH4QATeBTApPYqf9PvoKIh99E2qOxQ3jVvf47JHDT5fMl5GAQW+3tNvnF/4N3shwrhJc8Ljw/Q0Q13MJ4GcRc8IORjP99vZfpWlQe2gH3EZx7Gs/4IJAADqQ3DJX/+FM38vqHyKlA5Hhx+Pj49X43468P34CheEiz9Z+pTMlrvFaQ6YbNrblRpKf6vNbHRNKX2yT/kwSVd5XluzGGs//Ew9NfIGS/RYs3X2yUGzp7dpnMYu+zPql1mbp46f+XxeSCkVxrpt8+bmWJgJOTPeYP7m5QkWi4Wye0d94t3m3sNmtFao5OyLvle7zPnRaKlQCb6+IDBfXvddJ1oq5BH5WE7JXd/xwWilUKnJpYGM9a7dPk5mpfCWP18cmO+okdOtaKVwYHxm5ZP1wOWNPBuFneUfBTK2dHkzyEbhwfirco3NxOF+aqPw8rPMbzuHV34bhX+h4e6q6KnQ4ZM6ngrZyNlG9FXo7hfMvgp7zt7o8FXIDq52U2+FznbTKgovmgAsalq4mB0mQqjJYfvler98o6sWhevuYPh2C5jz4WD1ReMPR4soi4W91dmtXy7MK469o7mpvcLn8nRaSWPi9PzH/++FCXvW3LuXpoXxi6MllK1tqHtGLBMd0zccLYNtFR60W8T0wkqv7yTQVuGTfpfLuvRXkms3sxo7hQlx/yy7NayOO3Uq3MXExY148PFY6OZyYafwihqsXNJfGteoMCGXQoYfzxo1KmxSO2kkJvTLcXUq3BreraFnp3UqNLwT3aJPpnUqPNBjTV+CKDScFVv0t+pUaLiytegXq1BoCQoLKNRDYfVQWEChHgqrh8ICCvVQWD0UFlCoh8LqobCAQj0UVg+FBRTqobB6KCygUA+F1UNhAYV6KKweCgso1ENh9VBYQKEeCquHwkKAhe1SIf2UoaFwSP+/dB29FtTvUsbnH+Q3VxTDmxOq+zffskqJiOtFpZda+OV/M6uQKepLof0NWAAAAAAAAAAAAAAAAAAAAAAAAAAAgAr8Aj5RWY0PDbn2AAAAAElFTkSuQmCC"
-                    alt="LinkedIn" width="25" height="25">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <!-- WELCOME MESSAGE -->
-            <h5 class="mt-4 mb-4 text-start">One-Stop for All Local Businesses, Services, & Stores Nearby Across India
+            <div class="text-center my-5">
+                <button class="btn btn-primary d-inline-flex align-items-center px-5 py-2 ">
+                    <span class="me-2 ">View All Categories</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="a_m2 p-5  mt-5">
+
+            <h5 class="fw-bold">Unveiling the Culinary Treasures: Exploring Local Restaurants &amp; Eateries near
+                Mumbai
             </h5>
+            <h6>Welcome to the vibrant world of local restaurants, where every dish tells a story and every bite is
+                an adventure! In this article, we will take a delightful journey through the bustling streets and
+                cozy corners of your neighborhood to discover the hidden gems known as eateries, food places, and
+                top-rated restaurants. From savory sensations to sweet delights, there's something for every palate
+                in these food spots that define the essence of culinary excellence.</h6>
 
-            <p class="text-start">
-                Welcome to Justdial, your 'one stop shop' where you are assisted with day-to-day and exclusive planning
-                and purchasing activities. We take pride in our iconic customer support number, 8888888888 and the fact
-                that we own a strong hold on local business information pan India.
+            <h5 class="mt-4 fw-bold">Exploring the Local Scene</h5>
+            <h6>When it comes to experiencing the true essence of a city or town, few things rival the joy of
+                indulging in its local cuisine. Local restaurants offer a glimpse into the heart and soul of a
+                community, serving up not just food but also a sense of belonging and tradition. Whether you're
+                craving comfort food or eager to explore exotic flavors, these culinary havens have something to
+                satisfy every craving.</h6>
 
-                Our service extends from providing address and contact details of business establishments around the
-                country, to making orders and reservations for leisure, medical, financial, travel and domestic
-                purposes. We enlist business information across varied sectors like Hotels, Restaurants, Auto Care, Home
-                Decor, Personal and Pet Care, Fitness, Insurance, Real Estate, Sports, Schools, etc. from all over the
-                country. Holding information right from major cities like Mumbai, Delhi, Bangalore, Hyderabad, Chennai,
-                Ahmedabad and Pune our reach stretches out to other smaller cities across the country too.
+            <h5 class="mt-4 fw-bold">Restaurant Menu: A Feast for the Senses</h5>
+            <h6>Step inside any local restaurant, and you'll be greeted by a symphony of aromas, colors, and flavors
+                that titillate the senses. From sizzling steaks to aromatic curries, the restaurant menu is a
+                treasure trove of culinary delights waiting to be explored. Each dish is carefully crafted to
+                tantalize the taste buds and leave a lasting impression, ensuring that every meal is a memorable
+                experience.</h6>
 
-                Our 'Free Listing' feature gives a platform to showcase varied specialities. We then furnish you with
-                the information via phone, SMS, web, App and WAP as well as, create a space for you to share your
-                experiences through our 'Rate & Review' feature. Through the 'Best Deals', 'Last Minute Deals' and 'Live
-                Quotes', we make sure that you are offered the best bargains in the market.
-            </p>
+            <h5 class="mt-4 fw-bold">Global Cuisines: A World of Flavors at Your Doorstep </h5>
+            <h6>One of the greatest joys of dining at local restaurants is the opportunity to embark on a culinary
+                journey around the world without ever leaving your neighborhood. From Italian trattorias to Thai
+                street food stalls, these establishments offer a diverse array of global cuisines that reflect the
+                rich tapestry of cultures that call your city home. Whether you're in the mood for a taste of India
+                or craving the bold flavors of Mexico, you'll find it all right here in your own backyard.</h6>
 
-            <!-- SERVICES HEADING -->
-            <h4 class="mt-5 mb-4 text-start">Some of our services that will prove useful to you on a day-to-day basis
-                are:</h4>
-            <!-- Services Grid -->
-            <div class="container text-start">
-                <div class="row g-4"> <!-- g-4 ensures equal gaps -->
-                    <div class="col-md-3">
-                        <div class="service-box ">
-                            <i class="fas fa-briefcase text-secondary service-icon"></i>
-                            <strong>B2B</strong>
-                            <p>Explore diverse B2B categories, top vendors, and a wholesale experience. Instant
-                                assistance via chat available.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="service-box ">
-                            <i class="fas fa-globe-asia text-success service-icon"></i>
-                            <strong>All India</strong>
-                            <p>Justdial connects businesses across India—from suppliers to wholesalers—offering full
-                                digital B2B convenience.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="service-box">
-                            <i class="fas fa-truck-moving text-warning service-icon"></i>
-                            <strong>Packers and Movers</strong>
-                            <p>Get the best packers and movers with ratings, quotes, and a smooth relocation experience.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="service-box">
-                            <i class="fas fa-utensils text-danger service-icon"></i>
-                            <strong>Order Food Online</strong>
-                            <p>Browse restaurants, apply discounts, and order your favorite meals in just a few clicks.
-                            </p>
-                        </div>
-                    </div>
+            <h5 class="mt-4 fw-bold">Nightlife: Where Food Meets Entertainment </h5>
+            <h6>Local restaurants aren't just about great food; they're also hubs of social activity and nightlife.
+                As the sun sets and the city comes alive, these eateries transform into vibrant gathering spots
+                where friends come together to eat, drink, and make memories. Whether you're looking for a cozy
+                corner to enjoy a romantic dinner or a lively atmosphere to dance the night away, the local
+                restaurant scene has something for everyone.</h6>
 
-                    <div class="col-md-3">
-                        <div class="service-box">
-                            <i class="fas fa-user-tie text-primary service-icon"></i>
-                            <strong>Jobs</strong>
-                            <p>Find relevant jobs or hire candidates across industries and locations with ease.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="service-box">
-                            <i class="fas fa-film text-dark service-icon"></i>
-                            <strong>Movies</strong>
-                            <p>Book tickets, view trailers and cast, and stay updated with the latest releases.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="service-box">
-                            <i class="fas fa-spa text-pink service-icon"></i>
-                            <strong>Spa & Salon</strong>
-                            <p>Book appointments online for salons or spas near you for a hassle-free experience.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="service-box">
-                            <i class="fas fa-tools text-secondary service-icon"></i>
-                            <strong>Repair & Services</strong>
-                            <p>Get your AC, car, purifier, or appliances serviced quickly with verified professionals.
-                            </p>
-                        </div>
-                    </div>
+            <h5 class="mt-4 fw-bold">Quick Bites: On-the-Go Gastronomy </h5>
+            <h6>In today's fast-paced world, convenience is key, and local restaurants are here to deliver. Whether
+                you're rushing to catch a train or grabbing a quick bite between meetings, these food spots offer a
+                delicious solution to your hunger pangs. From gourmet sandwiches to freshly baked pastries, you'll
+                find an array of quick bites that are as satisfying as they are convenient.</h6>
 
-                    <div class="col-md-3">
-                        <div class="service-box">
-                            <i class="fas fa-user-md text-info service-icon"></i>
-                            <strong>Doctor Appointment</strong>
-                            <p>Book doctor appointments online by specialty, city, and clinic. Avoid waiting and delays.
-                            </p>
-                        </div>
+            <h5 class="mt-4 fw-bold">Sweet Tooth: Indulge Your Dessert Desires </h5>
+            <h6>No meal is complete without something sweet to satisfy your sweet tooth, and local restaurants have
+                you covered. From decadent cakes to artisanal chocolates, these establishments offer a tempting
+                array of desserts that are sure to delight your taste buds. Whether you're celebrating a special
+                occasion or simply treating yourself to a little indulgence, there's no shortage of sweet treats to
+                choose from.</h6>
+
+            <h3 class="mt-5 ">Frequently Asked Questions</h3>
+
+            <h5 class="mt-4 fw-bold">1. What are the key factors to consider when choosing a restaurant in Mumbai?
+            </h5>
+            <h6>You should consider the type of cuisine you're in the mood for, the restaurant's location, its
+                hygiene standards, ambiance, price range, customer reviews, and any special requirements like
+                vegetarian options, parking, or Wi-Fi.</h6>
+
+            <h5 class="mt-4 fw-bold">2. How can I find the best local restaurants in Mumbai?</h5>
+            <h6>You can use online platforms such as Justdial, Zomato, Swiggy or Google Maps. Asking locals or
+                friends for recommendations, checking social media pages and food blogs, and looking for popular
+                food festivals or food trails can also help.</h6>
+
+            <h5 class="mt-4 fw-bold">3. What should I look for in online reviews of Indian restaurants?</h5>
+            <h6>Look for consistency in positive feedback regarding food quality and taste, comments on cleanliness
+                and hygiene, feedback on service and staff behavior, information on portion sizes and value for
+                money, and any recurring negative comments or issues mentioned by multiple reviewers</h6>
+
+            <h5 class="mt-4 fw-bold">4. Are there any safety tips to keep in mind when dining out in India?</h5>
+            <h6>Opt for bottled water to avoid waterborne diseases. Check the hygiene rating of the restaurant.
+                Prefer busy and well-reviewed places, as high turnover often indicates freshness. Be cautious of
+                street food; ensure it's cooked fresh and served hot. Verify the authenticity of ingredients,
+                especially in international cuisine restaurants.</h6>
+
+            <h5 class="mt-4 fw-bold">5. What are some famous regional cuisines to try in different parts of India?
+            </h5>
+            <h6>In North India, you can try Punjabi, Kashmiri, and Mughlai cuisines. In South India, popular options
+                include Andhra, Tamil, Kerala, Karnataka, Goan, and Chettinad cuisines. In West India, you can
+                explore Gujarati, Maharashtrian, and Goan cuisines. East India offers Bengali, Assamese, and Oriya
+                cuisines.</h6>
+
+
+        </section>
+
+    </main>
+    <footer class="bg-light text-dark text-center p-4">
+        <!-- SOCIAL MEDIA LINKS -->
+        <div class="mt-2 d-flex align-items-center">
+            <span class="me-2">Follow us on</span>
+            <img src="https://img.freepik.com/premium-photo/facebook-logo_1080029-107.jpg?semt=ais_hybrid&w=740"
+                alt="Facebook" width="25" height="25" class="me-2">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
+                alt="Instagram" width="25" height="25" class="me-2">
+            <img src="https://e7.pngegg.com/pngimages/208/269/png-clipart-youtube-play-button-computer-icons-youtube-youtube-logo-angle-rectangle-thumbnail.png"
+                alt="YouTube" width="25" height="25" class="me-2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJwny5COlA8x8T6b-t7ex1IiOJWbnma96M0-3pyeTKkwSgNLNThEICL8PFFw&s"
+                alt="Twitter" width="25" height="25" class="me-2">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAllBMVEUMZMX///8AYcQAWcFDf8nL3PIAWrzQ3vMAYcI0eclZjtAucslAgsz6/v3x9/sgbclOhM8AX8QAYsAAX70AV70AWMLm7vgAXb4sdsw5fsoRbsVmltK6z+iUt+AMZcGDrN3c6fNvnddiltWqwuPA0+r0+vyOrt+lweR9pduuyueUst9Lh81pldd1mtYdbcunxOXO4u7Z4fGRyVlRAAAEKUlEQVR4nO3ce1faMBzG8SblEpSCiUUuQrkMhsCc+v7f3Ko4KjW/yLY0WXOez9mf4Ml3vSW1NYoAAAAAAAAAAAAAAAAAAAAAAAAAAADgYiriIsqU72FURcapGnXHk5aMue+xVCCT6n56x960Z2OpMt8jsozz+Xve0Xqc+h6SXbKzYOeSfex7UBap+J591lThHI3awPxw5KGcVFUj0RayaRrI6UaUj8GTpfA9NivknApkvTC2YdwjC9lc+h6dBWpFB7JFCIXx1FDIRr6HZ0Fq2EkZewjgXNMnLhVH34a+x/fPeMdYOK3/gchvTIFsXf/ZKR+bC+u/DcW1cS/d1f84jFobU+H3ANYXadNU2PU9PAvkd0Ngz/forMgMhU/1P5Xm4h0ZmHQCOAzz68WEPNdsg9iE+ZH4QATeBTApPYqf9PvoKIh99E2qOxQ3jVvf47JHDT5fMl5GAQW+3tNvnF/4N3shwrhJc8Ljw/Q0Q13MJ4GcRc8IORjP99vZfpWlQe2gH3EZx7Gs/4IJAADqQ3DJX/+FM38vqHyKlA5Hhx+Pj49X43468P34CheEiz9Z+pTMlrvFaQ6YbNrblRpKf6vNbHRNKX2yT/kwSVd5XluzGGs//Ew9NfIGS/RYs3X2yUGzp7dpnMYu+zPql1mbp46f+XxeSCkVxrpt8+bmWJgJOTPeYP7m5QkWi4Wye0d94t3m3sNmtFao5OyLvle7zPnRaKlQCb6+IDBfXvddJ1oq5BH5WE7JXd/xwWilUKnJpYGM9a7dPk5mpfCWP18cmO+okdOtaKVwYHxm5ZP1wOWNPBuFneUfBTK2dHkzyEbhwfirco3NxOF+aqPw8rPMbzuHV34bhX+h4e6q6KnQ4ZM6ngrZyNlG9FXo7hfMvgp7zt7o8FXIDq52U2+FznbTKgovmgAsalq4mB0mQqjJYfvler98o6sWhevuYPh2C5jz4WD1ReMPR4soi4W91dmtXy7MK469o7mpvcLn8nRaSWPi9PzH/++FCXvW3LuXpoXxi6MllK1tqHtGLBMd0zccLYNtFR60W8T0wkqv7yTQVuGTfpfLuvRXkms3sxo7hQlx/yy7NayOO3Uq3MXExY148PFY6OZyYafwihqsXNJfGteoMCGXQoYfzxo1KmxSO2kkJvTLcXUq3BreraFnp3UqNLwT3aJPpnUqPNBjTV+CKDScFVv0t+pUaLiytegXq1BoCQoLKNRDYfVQWEChHgqrh8ICCvVQWD0UFlCoh8LqobCAQj0UVg+FBRTqobB6KCygUA+F1UNhAYV6KKweCgso1ENh9VBYQKEeCquHwkKAhe1SIf2UoaFwSP+/dB29FtTvUsbnH+Q3VxTDmxOq+zffskqJiOtFpZda+OV/M6uQKepLof0NWAAAAAAAAAAAAAAAAAAAAAAAAAAAgAr8Aj5RWY0PDbn2AAAAAElFTkSuQmCC"
+                alt="LinkedIn" width="25" height="25">
+        </div>
+
+        <!-- WELCOME MESSAGE -->
+        <h5 class="mt-4 mb-4 text-start">One-Stop for All Local Businesses, Services, & Stores Nearby Across India
+        </h5>
+
+        <p class="text-start">
+            Welcome to Justdial, your 'one stop shop' where you are assisted with day-to-day and exclusive planning
+            and purchasing activities. We take pride in our iconic customer support number, 8888888888 and the fact
+            that we own a strong hold on local business information pan India.
+
+            Our service extends from providing address and contact details of business establishments around the
+            country, to making orders and reservations for leisure, medical, financial, travel and domestic
+            purposes. We enlist business information across varied sectors like Hotels, Restaurants, Auto Care, Home
+            Decor, Personal and Pet Care, Fitness, Insurance, Real Estate, Sports, Schools, etc. from all over the
+            country. Holding information right from major cities like Mumbai, Delhi, Bangalore, Hyderabad, Chennai,
+            Ahmedabad and Pune our reach stretches out to other smaller cities across the country too.
+
+            Our 'Free Listing' feature gives a platform to showcase varied specialities. We then furnish you with
+            the information via phone, SMS, web, App and WAP as well as, create a space for you to share your
+            experiences through our 'Rate & Review' feature. Through the 'Best Deals', 'Last Minute Deals' and 'Live
+            Quotes', we make sure that you are offered the best bargains in the market.
+        </p>
+
+        <!-- SERVICES HEADING -->
+        <h4 class="mt-5 mb-4 text-start">Some of our services that will prove useful to you on a day-to-day basis
+            are:</h4>
+        <!-- Services Grid -->
+        <div class="container text-start">
+            <div class="row g-4"> <!-- g-4 ensures equal gaps -->
+                <div class="col-md-3">
+                    <div class="service-box ">
+                        <i class="fas fa-briefcase text-secondary service-icon"></i>
+                        <strong>B2B</strong>
+                        <p>Explore diverse B2B categories, top vendors, and a wholesale experience. Instant
+                            assistance via chat available.</p>
                     </div>
-                    <div class="col-md-3">
-                        <div class="service-box">
-                            <i class="fas fa-building text-success service-icon"></i>
-                            <strong>Real Estate Agents</strong>
-                            <p>Connect with property agents for buying, selling, or renting homes with verified
-                                listings.</p>
-                        </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="service-box ">
+                        <i class="fas fa-globe-asia text-success service-icon"></i>
+                        <strong>All India</strong>
+                        <p>Justdial connects businesses across India—from suppliers to wholesalers—offering full
+                            digital B2B convenience.</p>
                     </div>
-                    <div class="col-md-3">
-                        <div class="service-box">
-                            <i class="fas fa-bolt text-warning service-icon"></i>
-                            <strong>Recharge/Bill Payment</strong>
-                            <p>Pay bills and recharge mobiles, DTH, and utilities online instantly with Justdial.</p>
-                        </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="service-box">
+                        <i class="fas fa-truck-moving text-warning service-icon"></i>
+                        <strong>Packers and Movers</strong>
+                        <p>Get the best packers and movers with ratings, quotes, and a smooth relocation experience.
+                        </p>
                     </div>
-                    <div class="col-md-3">
-                        <div class="service-box">
-                            <i class="fas fa-wallet text-danger service-icon"></i>
-                            <strong>Digital Wallets</strong>
-                            <p>Manage your online payments and transactions through trusted digital wallets.</p>
-                        </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="service-box">
+                        <i class="fas fa-utensils text-danger service-icon"></i>
+                        <strong>Order Food Online</strong>
+                        <p>Browse restaurants, apply discounts, and order your favorite meals in just a few clicks.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="service-box">
+                        <i class="fas fa-user-tie text-primary service-icon"></i>
+                        <strong>Jobs</strong>
+                        <p>Find relevant jobs or hire candidates across industries and locations with ease.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="service-box">
+                        <i class="fas fa-film text-dark service-icon"></i>
+                        <strong>Movies</strong>
+                        <p>Book tickets, view trailers and cast, and stay updated with the latest releases.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="service-box">
+                        <i class="fas fa-spa text-pink service-icon"></i>
+                        <strong>Spa & Salon</strong>
+                        <p>Book appointments online for salons or spas near you for a hassle-free experience.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="service-box">
+                        <i class="fas fa-tools text-secondary service-icon"></i>
+                        <strong>Repair & Services</strong>
+                        <p>Get your AC, car, purifier, or appliances serviced quickly with verified professionals.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="service-box">
+                        <i class="fas fa-user-md text-info service-icon"></i>
+                        <strong>Doctor Appointment</strong>
+                        <p>Book doctor appointments online by specialty, city, and clinic. Avoid waiting and delays.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="service-box">
+                        <i class="fas fa-building text-success service-icon"></i>
+                        <strong>Real Estate Agents</strong>
+                        <p>Connect with property agents for buying, selling, or renting homes with verified
+                            listings.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="service-box">
+                        <i class="fas fa-bolt text-warning service-icon"></i>
+                        <strong>Recharge/Bill Payment</strong>
+                        <p>Pay bills and recharge mobiles, DTH, and utilities online instantly with Justdial.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="service-box">
+                        <i class="fas fa-wallet text-danger service-icon"></i>
+                        <strong>Digital Wallets</strong>
+                        <p>Manage your online payments and transactions through trusted digital wallets.</p>
                     </div>
                 </div>
             </div>
-            <p class="text-start small mt-5 ">Some of the other services that can be of assistance to you for leisure,
-                health and home convenience are - Pest Control, Skin Care Clinics, Painters, Laundry Services, Interior
-                Designers, Mobile Phone Repair, Vaccination Centres, Internet Service Providers, etc. With an endless
-                number of things under the sun, you can be sure this will be your 'One Stop Shop' to find everything and
-                more.</p>
-            <div class="container-fluid mt-4 text-start px-0">
-                <h5 class="fw-semibold mb-3">Popular Categories</h5>
+        </div>
+        <p class="text-start small mt-5 ">Some of the other services that can be of assistance to you for leisure,
+            health and home convenience are - Pest Control, Skin Care Clinics, Painters, Laundry Services, Interior
+            Designers, Mobile Phone Repair, Vaccination Centres, Internet Service Providers, etc. With an endless
+            number of things under the sun, you can be sure this will be your 'One Stop Shop' to find everything and
+            more.</p>
+        <div class="container-fluid mt-4 text-start px-0">
+            <h5 class="fw-semibold mb-3">Popular Categories</h5>
+            <div class="category-list" style="line-height: 1.8; font-size: 0.93rem;">
+                Cinema Halls | Malls | Gyms | Beauty Spa | Schools |
+                Hospitals | Travel Agents | Bikes On Rent | Beauty Parlours
+                Dealers | Education Consultants | Battery Operated Scooter Dealers-OLA | Entertainment Centres |
+                DTH
+                TV Broadcast Service Providers-Sun Direct | AC Repair | Tnpsc Tutorials |
+                Mobile Phone Simcard Dealers-Jio | MPSC Tutorials | Shoe Dealers-Nike | Tirupati Darshanam
+                Ticketing
+
+                <h5 class="fw-semibold mt-3 mb-3">Trending Searches</h5>
                 <div class="category-list" style="line-height: 1.8; font-size: 0.93rem;">
-                    Cinema Halls | Malls | Gyms | Beauty Spa | Schools |
-                    Hospitals | Travel Agents | Bikes On Rent | Beauty Parlours
+                    Real Estate Agents | Book Shops | Aadhaar Card Agents | Yoga Classes | Estate Agents For Land |
+                    Pmjay Scheme Hospitals | Tutorials For IIT JEE | Mobile Phone Repair & Services-MI | Wrist Watch
                     Dealers | Education Consultants | Battery Operated Scooter Dealers-OLA | Entertainment Centres |
                     DTH
-                    TV Broadcast Service Providers-Sun Direct | AC Repair | Tnpsc Tutorials |
+                    TV Broadcast Service Providers-Sun Direct | AC Repair & Services-Blue Star | Tnpsc Tutorials |
                     Mobile Phone Simcard Dealers-Jio | MPSC Tutorials | Shoe Dealers-Nike | Tirupati Darshanam
                     Ticketing
+                    Services | Bitcoin Services | Mobile Phone Repair & Services-Nothing | Cat Tutorials | Lawyers
+                    For
+                    District Court | Ayushman Bharat Yojana Consultants | Lawyers For Supreme Court | Sports Shoe
+                    Dealers | Courier Services For Ahmedabad | Internet Payment Gateway Solution Providers | Taxi
+                    Services For Inter City | BPSC Tutorials | Courier Services For Canada | Demat Account Services
+                    |
+                    Automobile Part Dealers-Ashok Leyland | Prp Hair Transplantation Treatment Doctors | Mutual Fund
+                    Agents-SBI | Courier Services For Dubai | BEST Enquiry | Pickleball Courts | Khatu Shyam Bhajan
+                    Singers | Dairy Product Retailers-Amul | Tutorials For Mppsc | Uber Autorickshaw Attachment
+                    Services
+                    | Football Dealers | Courier Services For Surat | Battery Operated Auto Rickshaw Dealers-Mini
+                    Metro
+                    | Electricity Suppliers-Kseb | Courier Services For Tirupati | Packers And Movers For Hyderabad
+                    |
+                    Newspaper Advertising Agencies-Dainik Bhaskar | Tutorials For MHT CET
+                </div>
+            </div>
+            <h5 class="fw-semibold mt-4 mb-3">Deals And Offers</h5>
+            <div class="category-list" style="line-height: 1.8; font-size: 0.93rem;">
+                Deals and Offers | Kotak Mahindra Banks | INOX Cinemas | Canara Banks | Ratnakar Banks | PVR Cinemas
+                | ICICI Banks | HDFC Banks | AU Small Finance Bank | Bank Of Maharashtra | Bank Of India | Axis
+                Banks | IDFC First Banks | Maharashtra Gramin Banks | Catholic Syrian Banks | Saraswat Co Operative
+                Banks | Punjab & Sind Banks | State Bank Of India | Union Bank Of India | Punjab National Banks |
+                Bank Of Baroda | Lifestyle Stores | Behrouz Biryani | Fastrack | The Good Bowl | Sony | Yes Banks |
+                Croma | Dell Exclusive Stores | Beverly Hills Polo Club | Joyalukkas Jewellery | Kalyan Jewellers |
+                Flying Machine | Lenovo Exclusive Store | Reliance Digital | Vijay Sales | Duroflex | Anytime
+                Fitness | Kromakay Salons | Toni&Guy Salons | Bakingo | Barbeque Nation Restaurants | McDonalds |
+                Sweet Truth Cake Shops | ALDO Stores | Helios | Inglot Stores | LEE Stores | Max Stores | US Polo
+                Assn | Wrangler | Levi's | Apple Store | IFB Point | LG | Oppo Exclusive Showroom | Federal Banks |
+                IDBI Banks | Bandhan Banks | DBS Banks | Karur Vysya Banks | Indusind Banks | Central Bank Of India
+                | Explore JD Collections | Travel & Tourism | Beauty & Fashion | Health & Fitness | Food & Beverage
+                | Finance | On demand Services | Home & Living | Education & Career | Recreation | Jd Business Guide
+                | Popular Cities | Bangalore | Mumbai | Chennai | Delhi | Hyderabad | Pune | Ahmedabad | Lucknow |
+                Patna | Jaipur | Indore | Kochi | Kolkata | Coimbatore | Nagpur | Ludhiana | Agra | Bhubaneshwar |
+                Bhopal | Guwahati | Surat | Madurai | Visakhapatnam | Sonepat | Vadodara | Meerut |
+                Thiruvananthapuram | Gurgaon | Kozhikode | Varanasi | Siliguri | Allahabad | Rajkot | Ghaziabad |
+                Mysore | Noida | Chandigarh | Navi-Mumbai | Vijayawada | Durgapur | Srinagar | Nashik | Panipat |
+                Jammu | Jodhpur | Udaipur-Rajasthan | Thane | Raipur-Chhattisgarh | Amritsar | Jabalpur
+            </div>
+            <h5 class="fw-semibold mt-4 mb-2">Explore JD Collections</h5>
+            <div class="category-list" style="line-height: 1.8; font-size: 0.93rem;">
+                Travel & Tourism | Beauty & Fashion | Health & Fitness | Food & Beverage | Finance | On demand
+                Services |
+                Home & Living | Education & Career | Recreation | JD Business Guide
+            </div>
 
-                    <h5 class="fw-semibold mt-3 mb-3">Trending Searches</h5>
-                    <div class="category-list" style="line-height: 1.8; font-size: 0.93rem;">
-                        Real Estate Agents | Book Shops | Aadhaar Card Agents | Yoga Classes | Estate Agents For Land |
-                        Pmjay Scheme Hospitals | Tutorials For IIT JEE | Mobile Phone Repair & Services-MI | Wrist Watch
-                        Dealers | Education Consultants | Battery Operated Scooter Dealers-OLA | Entertainment Centres |
-                        DTH
-                        TV Broadcast Service Providers-Sun Direct | AC Repair & Services-Blue Star | Tnpsc Tutorials |
-                        Mobile Phone Simcard Dealers-Jio | MPSC Tutorials | Shoe Dealers-Nike | Tirupati Darshanam
-                        Ticketing
-                        Services | Bitcoin Services | Mobile Phone Repair & Services-Nothing | Cat Tutorials | Lawyers
-                        For
-                        District Court | Ayushman Bharat Yojana Consultants | Lawyers For Supreme Court | Sports Shoe
-                        Dealers | Courier Services For Ahmedabad | Internet Payment Gateway Solution Providers | Taxi
-                        Services For Inter City | BPSC Tutorials | Courier Services For Canada | Demat Account Services
-                        |
-                        Automobile Part Dealers-Ashok Leyland | Prp Hair Transplantation Treatment Doctors | Mutual Fund
-                        Agents-SBI | Courier Services For Dubai | BEST Enquiry | Pickleball Courts | Khatu Shyam Bhajan
-                        Singers | Dairy Product Retailers-Amul | Tutorials For Mppsc | Uber Autorickshaw Attachment
-                        Services
-                        | Football Dealers | Courier Services For Surat | Battery Operated Auto Rickshaw Dealers-Mini
-                        Metro
-                        | Electricity Suppliers-Kseb | Courier Services For Tirupati | Packers And Movers For Hyderabad
-                        |
-                        Newspaper Advertising Agencies-Dainik Bhaskar | Tutorials For MHT CET
-                    </div>
+            <h5 class="fw-semibold mt-4 mb-2">Popular Cities</h5>
+            <div class="category-list" style="line-height: 1.8; font-size: 0.93rem;">
+                Bangalore | Mumbai | Chennai | Delhi | Hyderabad | Pune | Ahmedabad | Lucknow | Patna | Jaipur |
+                Indore |
+                Kochi | Kolkata | Coimbatore | Nagpur | Ludhiana | Agra | Bhubaneshwar | Bhopal | Guwahati | Surat |
+                Madurai | Visakhapatnam | Sonepat | Vadodara | Meerut | Thiruvananthapuram | Gurgaon | Kozhikode |
+                Varanasi | Siliguri | Allahabad | Rajkot | Ghaziabad | Mysore | Noida | Chandigarh | Navi-Mumbai |
+                Vijayawada | Durgapur | Srinagar | Nashik | Panipat | Jammu | Jodhpur | Udaipur-Rajasthan | Thane |
+                Raipur-Chhattisgarh | Amritsar | Jabalpur
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-3">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled text-start">
+                        <li>About us</li>
+                        <li>Investor Relations</li>
+                        <li>We're hiring</li>
+                        <li>Customer Care</li>
+                        <li>Free Listing</li>
+                        <li>What's New</li>
+                        <li>Report a Bug</li>
+                        <li>B2B Sitemap</li>
+                        <li>Sitemap</li>
+                        <li>Advertise</li>
+                        <li>Media</li>
+                        <li>Testimonials</li>
+                        <li>Feedback</li>
+                        <li>Business Badge</li>
+                        <li>Jd Collection</li>
+                        <li>Client Success Videos</li>
+                        <li>B2B India Sitemap</li>
+                        <li>Return & Exchange Policy</li>
+                    </ul>
                 </div>
-                <h5 class="fw-semibold mt-4 mb-3">Deals And Offers</h5>
-                <div class="category-list" style="line-height: 1.8; font-size: 0.93rem;">
-                    Deals and Offers | Kotak Mahindra Banks | INOX Cinemas | Canara Banks | Ratnakar Banks | PVR Cinemas
-                    | ICICI Banks | HDFC Banks | AU Small Finance Bank | Bank Of Maharashtra | Bank Of India | Axis
-                    Banks | IDFC First Banks | Maharashtra Gramin Banks | Catholic Syrian Banks | Saraswat Co Operative
-                    Banks | Punjab & Sind Banks | State Bank Of India | Union Bank Of India | Punjab National Banks |
-                    Bank Of Baroda | Lifestyle Stores | Behrouz Biryani | Fastrack | The Good Bowl | Sony | Yes Banks |
-                    Croma | Dell Exclusive Stores | Beverly Hills Polo Club | Joyalukkas Jewellery | Kalyan Jewellers |
-                    Flying Machine | Lenovo Exclusive Store | Reliance Digital | Vijay Sales | Duroflex | Anytime
-                    Fitness | Kromakay Salons | Toni&Guy Salons | Bakingo | Barbeque Nation Restaurants | McDonalds |
-                    Sweet Truth Cake Shops | ALDO Stores | Helios | Inglot Stores | LEE Stores | Max Stores | US Polo
-                    Assn | Wrangler | Levi's | Apple Store | IFB Point | LG | Oppo Exclusive Showroom | Federal Banks |
-                    IDBI Banks | Bandhan Banks | DBS Banks | Karur Vysya Banks | Indusind Banks | Central Bank Of India
-                    | Explore JD Collections | Travel & Tourism | Beauty & Fashion | Health & Fitness | Food & Beverage
-                    | Finance | On demand Services | Home & Living | Education & Career | Recreation | Jd Business Guide
-                    | Popular Cities | Bangalore | Mumbai | Chennai | Delhi | Hyderabad | Pune | Ahmedabad | Lucknow |
-                    Patna | Jaipur | Indore | Kochi | Kolkata | Coimbatore | Nagpur | Ludhiana | Agra | Bhubaneshwar |
-                    Bhopal | Guwahati | Surat | Madurai | Visakhapatnam | Sonepat | Vadodara | Meerut |
-                    Thiruvananthapuram | Gurgaon | Kozhikode | Varanasi | Siliguri | Allahabad | Rajkot | Ghaziabad |
-                    Mysore | Noida | Chandigarh | Navi-Mumbai | Vijayawada | Durgapur | Srinagar | Nashik | Panipat |
-                    Jammu | Jodhpur | Udaipur-Rajasthan | Thane | Raipur-Chhattisgarh | Amritsar | Jabalpur
-                </div>
-                <h5 class="fw-semibold mt-4 mb-2">Explore JD Collections</h5>
-                <div class="category-list" style="line-height: 1.8; font-size: 0.93rem;">
-                    Travel & Tourism | Beauty & Fashion | Health & Fitness | Food & Beverage | Finance | On demand
-                    Services |
-                    Home & Living | Education & Career | Recreation | JD Business Guide
-                </div>
-
-                <h5 class="fw-semibold mt-4 mb-2">Popular Cities</h5>
-                <div class="category-list" style="line-height: 1.8; font-size: 0.93rem;">
-                    Bangalore | Mumbai | Chennai | Delhi | Hyderabad | Pune | Ahmedabad | Lucknow | Patna | Jaipur |
-                    Indore |
-                    Kochi | Kolkata | Coimbatore | Nagpur | Ludhiana | Agra | Bhubaneshwar | Bhopal | Guwahati | Surat |
-                    Madurai | Visakhapatnam | Sonepat | Vadodara | Meerut | Thiruvananthapuram | Gurgaon | Kozhikode |
-                    Varanasi | Siliguri | Allahabad | Rajkot | Ghaziabad | Mysore | Noida | Chandigarh | Navi-Mumbai |
-                    Vijayawada | Durgapur | Srinagar | Nashik | Panipat | Jammu | Jodhpur | Udaipur-Rajasthan | Thane |
-                    Raipur-Chhattisgarh | Amritsar | Jabalpur
-                </div>
-                <div class="row mt-4">
-                    <div class="col-md-3">
-                        <h6 class="fw-bold mb-3">Quick Links</h6>
-                        <ul class="list-unstyled text-start">
-                            <li>About us</li>
-                            <li>Investor Relations</li>
-                            <li>We're hiring</li>
-                            <li>Customer Care</li>
-                            <li>Free Listing</li>
-                            <li>What's New</li>
-                            <li>Report a Bug</li>
-                            <li>B2B Sitemap</li>
-                            <li>Sitemap</li>
-                            <li>Advertise</li>
-                            <li>Media</li>
-                            <li>Testimonials</li>
-                            <li>Feedback</li>
-                            <li>Business Badge</li>
-                            <li>Jd Collection</li>
-                            <li>Client Success Videos</li>
-                            <li>B2B India Sitemap</li>
-                            <li>Return & Exchange Policy</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-9">
-                        <h6 class="fw-bold mb-3">JD Verticals</h6>
-                        <div class="row text-start">
-                            <div class="col-md-3">
-                                <ul class="list-unstyled">
-                                    <li>B2B</li>
-                                    <li>Accommodation</li>
-                                    <li>Automobiles & Two Wheelers</li>
-                                    <li>Education</li>
-                                    <li>Entertainment</li>
-                                    <li>Home & Garden</li>
-                                    <li>Lights & Lighting</li>
-                                    <li>Placements</li>
-                                    <li>Sports & Entertainment</li>
-                                    <li>Watches & Eyewear</li>
-                                </ul>
-                            </div>
-                            <div class="col-md-3">
-                                <ul class="list-unstyled">
-                                    <li>All India</li>
-                                    <li>Advertising & PR</li>
-                                    <li>Beauty & Personal Care</li>
-                                    <li>Electronic Component</li>
-                                    <li>Events & Wedding</li>
-                                    <li>Housekeeping & Facility Management</li>
-                                    <li>Luggage Bags & Cases</li>
-                                    <li>Public</li>
-                                    <li>Textile & Leather</li>
-                                </ul>
-                            </div>
-                            <div class="col-md-3">
-                                <ul class="list-unstyled">
-                                    <li>Doctors</li>
-                                    <li>Agriculture</li>
-                                    <li>Business & Legal</li>
-                                    <li>Electronics</li>
-                                    <li>Food & Beverage</li>
-                                    <li>Industrial Plants & Machinery</li>
-                                    <li>Office & School Supplies</li>
-                                    <li>Restaurant</li>
-                                    <li>Toys & Games</li>
-                                </ul>
-                            </div>
-                            <div class="col-md-3">
-                                <ul class="list-unstyled">
-                                    <li>Bills & Recharge</li>
-                                    <li>Apparel</li>
-                                    <li>Chemicals</li>
-                                    <li>Energy</li>
-                                    <li>Furniture</li>
-                                    <li>IT Components</li>
-                                    <li>Packaging & Printing</li>
-                                    <li>Pet & Pet Supplies</li>
-                                    <li>Security & Protection</li>
-                                    <li>Travel</li>
-                                    <li>Cricket</li>
-                                    <li>Astrology</li>
-                                    <li>Construction & Real Estate</li>
-                                    <li>Engineering</li>
-                                    <li>Health & Medical</li>
-                                    <li>Jewellery</li>
-                                </ul>
-                            </div>
+                <div class="col-md-9">
+                    <h6 class="fw-bold mb-3">JD Verticals</h6>
+                    <div class="row text-start">
+                        <div class="col-md-3">
+                            <ul class="list-unstyled">
+                                <li>B2B</li>
+                                <li>Accommodation</li>
+                                <li>Automobiles & Two Wheelers</li>
+                                <li>Education</li>
+                                <li>Entertainment</li>
+                                <li>Home & Garden</li>
+                                <li>Lights & Lighting</li>
+                                <li>Placements</li>
+                                <li>Sports & Entertainment</li>
+                                <li>Watches & Eyewear</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <ul class="list-unstyled">
+                                <li>All India</li>
+                                <li>Advertising & PR</li>
+                                <li>Beauty & Personal Care</li>
+                                <li>Electronic Component</li>
+                                <li>Events & Wedding</li>
+                                <li>Housekeeping & Facility Management</li>
+                                <li>Luggage Bags & Cases</li>
+                                <li>Public</li>
+                                <li>Textile & Leather</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <ul class="list-unstyled">
+                                <li>Doctors</li>
+                                <li>Agriculture</li>
+                                <li>Business & Legal</li>
+                                <li>Electronics</li>
+                                <li>Food & Beverage</li>
+                                <li>Industrial Plants & Machinery</li>
+                                <li>Office & School Supplies</li>
+                                <li>Restaurant</li>
+                                <li>Toys & Games</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <ul class="list-unstyled">
+                                <li>Bills & Recharge</li>
+                                <li>Apparel</li>
+                                <li>Chemicals</li>
+                                <li>Energy</li>
+                                <li>Furniture</li>
+                                <li>IT Components</li>
+                                <li>Packaging & Printing</li>
+                                <li>Pet & Pet Supplies</li>
+                                <li>Security & Protection</li>
+                                <li>Travel</li>
+                                <li>Cricket</li>
+                                <li>Astrology</li>
+                                <li>Construction & Real Estate</li>
+                                <li>Engineering</li>
+                                <li>Health & Medical</li>
+                                <li>Jewellery</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            <button id="backToTopBtn" class="btn position-fixed"
-                style="bottom: 20px; right: 20px; display: none; z-index: 999; background-color: white; color: black; border: 1px solid black;">
-                ⮝
-            </button>
-        </footer>
-    </div>
+        </div>
+        <button id="backToTopBtn" class="btn position-fixed"
+            style="bottom: 20px; right: 20px; display: none; z-index: 999; background-color: white; color: black; border: 1px solid black;">
+            ⮝
+        </button>
+    </footer>
 
 
 
